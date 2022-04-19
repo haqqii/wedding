@@ -1,0 +1,29 @@
+PETUNJUK  INSTALL APLIKASI
+ 
+1. Nyalakan Webserver (Kalau belum ada install dulu , program xampp yg tersedia di folder web-server). 
+  Gunakan Versi Xampp 8.0.3
+2. copy folder undangan_nikah ke htdocs atau www atau public_html
+-  untuk linux lammp ada di /opt/lampp/htdocs/
+3. buka phpmyadmin, lalu buat database baru dengan nama misal undangan_nikah
+4. pilih db yg telah dibuat tadi, lalu import file undangan_nikah.sql melalui phpmyadmin
+5. buka file undangan_nikah/application/config/database.php
+lihat baris 76 kebawah
+ 
+ubah bagian ini:
+$db['default']['hostname'] = 'localhost';
+$db['default']['username'] = 'root';
+$db['default']['password'] = '';
+$db['default']['database'] = 'undangan_nikah';
+Ubah sesuai aturan webserver Anda.
+ 
+ 
+Lalu silahkan buka di browser:
+http://localhost/undangan_nikah
+User Level Admin
+- username: admin
+- password: admin
+
+===================================
+ 
+Terimakasih
+

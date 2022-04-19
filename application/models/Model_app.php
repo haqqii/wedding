@@ -1,0 +1,120 @@
+<?php 
+class Model_app extends CI_model{
+    public function view($table){
+        return $this->db->get($table);
+    }
+
+    public function insert($table,$data){
+        return $this->db->insert($table, $data);
+    }
+
+    public function edit($table, $data){
+        return $this->db->get_where($table, $data);
+    }
+ 
+    public function update($table, $data, $where){
+        return $this->db->update($table, $data, $where); 
+    }
+
+    public function delete($table, $where){
+        return $this->db->delete($table, $where);
+    }
+
+    public function view_where($table,$data){
+        $this->db->where($data);
+        return $this->db->get($table);
+    }
+
+    public function view_ordering_limit($table,$order,$ordering,$baris,$dari){
+        $this->db->select('*');
+        $this->db->order_by($order,$ordering);
+        $this->db->limit($dari, $baris);
+        return $this->db->get($table);
+    }
+    
+    public function view_ordering($table,$order,$ordering){
+        $this->db->select('*');
+        $this->db->from($table);
+        $this->db->order_by($order,$ordering);
+        return $this->db->get()->result_array();
+    }
+
+    public function view_where_ordering($table,$data,$order,$ordering){
+        $this->db->where($data);
+        $this->db->order_by($order,$ordering);
+        $query = $this->db->get($table);
+        return $query->result_array();
+    }
+
+    public function view_join_one($table1,$table2,$field,$order,$ordering){
+        $this->db->select('*');
+        $this->db->from($table1);
+        $this->db->join($table2, $table1.'.'.$field.'='.$table2.'.'.$field);
+        $this->db->order_by($order,$ordering);
+        return $this->db->get()->result_array();
+    }
+
+    public function view_join_where($table1,$table2,$field,$where,$order,$ordering){
+        $this->db->select('*');
+        $this->db->from($table1);
+        $this->db->join($table2, $table1.'.'.$field.'='.$table2.'.'.$field);
+        $this->db->where($where);
+        $this->db->order_by($order,$ordering);
+        return $this->db->get()->result_array();
+    }
+
+    public function cek_login($username,$password,$table){
+        return $this->db->query("SELECT * FROM $table where username='".$this->db->escape_str($username)."' AND password='".$this->db->escape_str($password)."' AND blokir='N'");
+    }
+
+  	public function last_inserted($column,$nama,$table){
+ 		return $this->db->query("SELECT MAX(".$column.") as ".$nama." FROM ".$table);
+ 	
+ 	}
+	
+	public function store_data($table,$data)
+	{
+		$this->db->insert($table,$data);
+		return $this->db->insert_id();
+	}
+	
+	public function update_data($table,$where, $data)
+	{
+		$this->db->update($table, $data, $where);
+		return $this->db->affected_rows();
+	}
+	
+	
+	function get_where($table,$where){
+		$query = $this->db->get_where($table,$where);
+		return $query->result();
+	}
+	
+	
+	public function view_where_ordering_limit($table,$data,$order,$ordering,$baris,$dari){
+        $this->db->select('*');
+        $this->db->where($data);
+        $this->db->order_by($order,$ordering);
+        $this->db->limit($dari, $baris);
+        return $this->db->get($table);
+    }
+	
+	
+	public function generate_menu($level)
+	{
+		$query = $this->db->query("SELECT c.nama_modul,c.link,c.gambar,c.urutan 
+		FROM `user_modul` a 
+		LEFT JOIN `users` b ON a.id_user=b.level
+		LEFT JOIN  modul c ON a.id_modul =c.id_modul
+		WHERE b.level ='".$level."' AND c.aktif ='Y' AND a.tampil = 1
+		GROUP BY c.id_modul
+		ORDER BY c.urutan ASC");					
+		return $query->result_array();
+	}
+	
+	
+	
+
+
+    
+}
