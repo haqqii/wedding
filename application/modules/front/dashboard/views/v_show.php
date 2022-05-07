@@ -103,14 +103,14 @@
                                                     <div class="elementor-element elementor-element-fed8eff elementor-widget elementor-widget-image_lp" data-element_type="widget" data-id="fed8eff" data-widget_type="image_lp.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="image">
-                                                                <img src="assets/front_image/<?php echo $biodata['photo']; ?>" width="125px">
+                                                                <img src="assets/front_image/<?php echo $biodata['photo']; ?>" width="90px">
                                                             </div>
                                                         </div>
                                                     </div>
 
                                                     <div class="elementor-element elementor-element-3491642 elementor-invisible elementor-widget elementor-widget-heading" data-element_type="widget" data-id="3491642" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
-                                                            <h2 class="elementor-heading-title elementor-size-default" style="color: white" ;>Kepada Yth.<br> Bapak/Ibu/Saudara/i
+                                                            <h2 class="elementor-heading-title elementor-size-default" style="color: white;";>Kepada Yth.<br> Bapak/Ibu/Saudara/i
                                                             </h2>
                                                         </div>
                                                     </div>
@@ -118,7 +118,7 @@
                                                         <div class="elementor-widget-container">
                                                             <div class='popup'>
                                                                 <div class='cnt223'>
-                                                                    <p id="write" style="color: white; font-size: 18px; font-weight:bold; padding-bottom:5px; border-radius:4px; text-align: center"></p>
+                                                                    <p id="write" style="color: white; font-size: 18px; font-weight:bold; padding-bottom:4px; border-radius:4px; text-align: center"></p>
                                                                     <div style="clear: both;"></div>
                                                                 </div>
                                                             </div>
@@ -360,7 +360,7 @@
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-0d410b1 elementor-invisible elementor-widget elementor-widget-heading" data-element_type="widget" data-id="0d410b1" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="heading.default">
                                                                     <div class="elementor-widget-container">
-                                                                        <p class="elementor-heading-title elementor-size-default">Maha Suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan. Ya Allah semoga ridho-Mu tercurah mengiringi pernikahan putra-putri kami:</p>
+                                                                        <p class="elementor-heading-title elementor-size-default">Maha Suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan. Ya Allah semoga ridho-Mu tercurah mengiringi pernikahan kami:</p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-e203aef elementor-widget elementor-widget-image_lp" data-element_type="widget" data-id="e203aef" data-widget_type="image_lp.default">
@@ -523,7 +523,7 @@
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-7635662 elementor-invisible elementor-widget elementor-widget-heading" data-element_type="widget" data-id="7635662" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="heading.default">
                                                                     <div class="elementor-widget-container">
-                                                                        <p class="elementor-heading-title elementor-size-default">Dengan memohon rahmat dan ridho Allah Subhanahu Wa Ta'ala, kami mengundang Bapak/Ibu/Saudara/i, untuk menghadiri pernikahan putra-putri kami.</p>
+                                                                        <p class="elementor-heading-title elementor-size-default">Dengan memohon rahmat dan ridho Allah Subhanahu Wa Ta'ala, kami mengundang Bapak/Ibu/Saudara/i, untuk menghadiri pernikahan kami.</p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-bfa79e1 elementor-view-default elementor-widget elementor-widget-icon" data-element_type="widget" data-id="bfa79e1" data-widget_type="icon.default">
@@ -551,6 +551,7 @@
                                                                         <div class="elementor-row">
                                                                             <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-07ddd6b" data-element_type="column" data-id="07ddd6b">
                                                                                 <div class="elementor-column-wrap elementor-element-populated">
+
                                                                                     <div class="elementor-widget-wrap">
                                                                                         <div class="elementor-element elementor-element-3d7a74f elementor-align-left elementor-list-item-link-full_width elementor-invisible elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="3d7a74f" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="icon-list.default">
                                                                                             <div class="elementor-widget-container">
@@ -567,10 +568,10 @@
 
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div class="elementor-element elementor-element-4bde90d elementor-align-center elementor-mobile-align-center elementor-invisible elementor-widget elementor-widget-button_lp" data-element_type="widget" data-id="4bde90d" data-settings="{&quot;_animation_mobile&quot;:&quot;none&quot;,&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="button_lp.default">
+                                                                                        <div class="elementor-element elementor-element-74846e2 elementor-align-center elementor-mobile-align-center elementor-invisible elementor-widget elementor-widget-button_lp" data-element_type="widget" data-id="74846e2" data-settings="{&quot;_animation_mobile&quot;:&quot;none&quot;,&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="button_lp.default">
                                                                                             <div class="elementor-widget-container">
                                                                                                 <div class="elementor-button-wrapper">
-                                                                                                    <a class="elementor-button-link elementor-button elementor-size-sm elementor-animation-grow" href="<?php echo $akad['maps_akad']; ?>" role="button"><span class="elementor-button-content-wrapper"><span class="elementor-button-text">Buka Map</span></span></a>
+                                                                                                    <a class="elementor-button-link elementor-button elementor-size-sm elementor-animation-grow" href="<?php echo $akad['url_maps_akad']; ?>" role="button"><span class="elementor-button-content-wrapper"><span class="elementor-button-text">Buka Map</span></span></a>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -602,7 +603,7 @@
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-5b997e9 elementor-invisible elementor-widget elementor-widget-heading" data-element_type="widget" data-id="5b997e9" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="heading.default">
                                                                     <div class="elementor-widget-container">
-                                                                        <h2 class="elementor-heading-title elementor-size-default">Resepsi</h2>
+                                                                        <h2 class="elementor-heading-title elementor-size-default">Resepsi Pernikahan</h2>
                                                                     </div>
                                                                 </div>
                                                                 <section class="elementor-section elementor-inner-section elementor-element elementor-element-eb37cc4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-element_type="section" data-id="eb37cc4">
@@ -638,6 +639,16 @@
                                                                         </div>
                                                                     </div>
                                                                 </section>
+
+
+                                                                <div class="elementor-element elementor-element-25c8fbf elementor-widget elementor-widget-spacer" data-element_type="widget" data-id="25c8fbf" data-widget_type="spacer.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div class="elementor-spacer">
+                                                                            <div class="elementor-spacer-inner"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
                                                                 <div class="elementor-element elementor-element-b5c87b5 elementor-widget elementor-widget-spacer" data-element_type="widget" data-id="b5c87b5" data-widget_type="spacer.default">
                                                                     <div class="elementor-widget-container">
                                                                         <div class="elementor-spacer">
@@ -743,6 +754,8 @@
                                                                                     </span>
                                                                                 </div>
                                                                             </div>
+                                                                            <center><a class="elementor-button-link elementor-button elementor-size-sm elementor-animation-grow" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=N2NuZmNkYWtva3Vhdm4wZWo1bGpicGEyY2tfMjAyMjA1MjFUMDIwMDAwWiBoYXFxaWFyaWVzMDFAbQ&tmsrc=haqqiaries01%40gmail.com&scp=ALL" role="button"><span class="elementor-button-content-wrapper"><span class="elementor-button-text">Add to Calender</span></span></a></center>
+                                        
                                                                             <script type="text/javascript">
                                                                                 new Countdown({
                                                                                     selector: '#lp-countdown-fixed-9f48948',
@@ -1120,11 +1133,11 @@
                                                                                 <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-8834a09" data-element_type="column" data-id="8834a09">
                                                                                     <div class="elementor-column-wrap elementor-element-populated">
                                                                                         <div class="elementor-widget-wrap">
-                                                                                            <div class="elementor-element elementor-element-f8be7f6 elementor-invisible elementor-widget elementor-widget-heading" data-element_type="widget" data-id="f8be7f6" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="heading.default">
-                                                                                                <div class="elementor-widget-container">
-                                                                                                    <h2 class="elementor-heading-title elementor-size-default">Love Gift</h2>
-                                                                                                </div>
-                                                                                            </div>
+                                                                                            <!--<div class="elementor-element elementor-element-f8be7f6 elementor-invisible elementor-widget elementor-widget-heading" data-element_type="widget" data-id="f8be7f6" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="heading.default">-->
+                                                                                            <!--    <div class="elementor-widget-container">-->
+                                                                                            <!--        <h2 class="elementor-heading-title elementor-size-default">Love Gift</h2>-->
+                                                                                            <!--    </div>-->
+                                                                                            <!--</div>-->
                                                                                             <div class="elementor-element elementor-element-f285510 elementor-invisible elementor-widget elementor-widget-heading" data-element_type="widget" data-id="f285510" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="heading.default">
                                                                                                 <div class="elementor-widget-container">
                                                                                                     <h2 class="elementor-heading-title elementor-size-default">Tanpa mengurangi rasa hormat, bagi anda yang ingin memberikan tanda kasih untuk kami, dapat melalui:</h2>
@@ -1132,7 +1145,7 @@
                                                                                             </div>
                                                                                             <div class="elementor-element elementor-element-6dac32c elementor-invisible elementor-widget elementor-widget-heading" data-element_type="widget" data-id="6dac32c" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="heading.default">
                                                                                                 <div class="elementor-widget-container">
-                                                                                                    <h2 class="elementor-heading-title elementor-size-default"><?php echo "<img src='assets/front_image/mandiri.jpeg' width='300' height='600' align='center'" ?><br> <?php echo $love_gift['nama_bank']; ?><br> No. Rekening <?php echo $love_gift['no_rekening']; ?><br> a.n <b><?php echo $love_gift['nama_rekening']; ?></b></h2>
+                                                                                                    <h2 class="elementor-heading-title elementor-size-default"><?php echo "<img src='assets/front_image/bni.png' width='150px' height='100px' align='center'" ?><br><br><br> No. Rekening <?php echo $love_gift['no_rekening']; ?><br> a.n <b><?php echo $love_gift['nama_rekening']; ?></b></h2>
                                                                                                 </div>
                                                                                             </div>
                                                                                             <div class="elementor-element elementor-element-8b50d42 elementor-align-justify elementor-mobile-align-justify elementor-invisible elementor-widget elementor-widget-CopyButton" data-element_type="widget" data-id="8b50d42" data-settings="{&quot;_animation&quot;:&quot;none&quot;,&quot;_animation_mobile&quot;:&quot;none&quot;}" data-widget_type="CopyButton.default">
@@ -1151,7 +1164,7 @@
                                                                                             </div>
                                                                                             <div class="elementor-element elementor-element-6dac32c elementor-invisible elementor-widget elementor-widget-heading" data-element_type="widget" data-id="6dac32c" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="heading.default">
                                                                                                 <div class="elementor-widget-container">
-                                                                                                    <h2 class="elementor-heading-title elementor-size-default"><?php echo $love_gift['nama_bank']; ?><br> No. Rekening <?php echo $love_gift['no_rekening']; ?><br> a.n <b><?php echo $love_gift['nama_rekening']; ?></b></h2>
+                                                                                                    <h2 class="elementor-heading-title elementor-size-default"><?php echo "<img src='assets/front_image/Mandiri2.png' width='150px' height='100px'" ?><br><br><br> No. Rekening <?php echo $love_gift['no_rekening2']; ?><br> a.n <b><?php echo $love_gift['nama_rekening2']; ?></b></h2>
                                                                                                 </div>
                                                                                             </div>
                                                                                             <div class="elementor-element elementor-element-8b50d42 elementor-align-justify elementor-mobile-align-justify elementor-invisible elementor-widget elementor-widget-CopyButton" data-element_type="widget" data-id="8b50d42" data-settings="{&quot;_animation&quot;:&quot;none&quot;,&quot;_animation_mobile&quot;:&quot;none&quot;}" data-widget_type="CopyButton.default">
@@ -1426,41 +1439,6 @@
                                                                                     <div class="elementor-image"><img alt="" class="attachment-full size-full" height="854" src="<?php echo base_url(); ?>assets/front_image/<?php echo $story_status['photo']; ?>" width="1280"></div>
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="elementor-element elementor-element-09fecf4 elementor-widget elementor-widget-spacer" data-element_type="widget" data-id="09fecf4" data-widget_type="spacer.default">
-                                                                                <div class="elementor-widget-container">
-                                                                                    <div class="elementor-spacer">
-                                                                                        <div class="elementor-spacer-inner"></div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <?php
-                                                                            foreach ($story as $s) {
-                                                                            ?>
-                                                                                <section class="elementor-section elementor-inner-section elementor-element elementor-element-0fa9e03 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-element_type="section" data-id="0fa9e03">
-                                                                                    <div class="elementor-container elementor-column-gap-default">
-                                                                                        <div class="elementor-row">
-                                                                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-da8d8f7" data-element_type="column" data-id="da8d8f7">
-                                                                                                <div class="elementor-column-wrap elementor-element-populated">
-                                                                                                    <div class="elementor-widget-wrap">
-                                                                                                        <div class="elementor-element elementor-element-e590886 elementor-view-stacked elementor-shape-circle elementor-invisible elementor-widget elementor-widget-icon" data-element_type="widget" data-id="e590886" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="icon.default">
-                                                                                                            <div class="elementor-widget-container">
-                                                                                                                <div class="elementor-icon-wrapper">
-                                                                                                                    <div class="elementor-icon">
-                                                                                                                        <i aria-hidden="true" class="fas fa-heart"></i>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </section>
-                                                                            <?php
-                                                                            }
-                                                                            ?>
-
 
 
                                                                             <div class="elementor-element elementor-element-055f391 elementor-widget elementor-widget-heading" data-element_type="widget" data-id="055f391" data-widget_type="heading.default">
@@ -1630,7 +1608,15 @@
                                                                                                     <div class="elementor-widget-container">
                                                                                                         <h2 class="elementor-heading-title elementor-size-default">Kami Yang Berbahagia,</h2>
                                                                                                     </div>
+                                                                            
                                                                                                 </div>
+                                                                                                <div class="elementor-element elementor-element-f0fd31c elementor-invisible elementor-widget elementor-widget-heading" data-element_type="widget" data-id="f0fd31c" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+                                                                                                        <div class="elementor-widget-container">
+                                                                                                            <h2 class="elementor-heading-title elementor-size-default"><?php echo $biodata['nama_panggilan_wanita']; ?> & <?php echo $biodata['nama_panggilan_pria']; ?></h2>
+                                                                                                            <br>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    
                                                                                                 <div class="elementor-element elementor-element-1bb35fd elementor-invisible elementor-widget elementor-widget-heading" data-element_type="widget" data-id="1bb35fd" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="heading.default">
                                                                                                     <div class="elementor-widget-container">
                                                                                                         <p class="elementor-heading-title elementor-size-default">Keluarga <?php echo str_replace("Putri dari", "", $biodata['nama_orangtua_mempelai_wanita']); ?></p>
